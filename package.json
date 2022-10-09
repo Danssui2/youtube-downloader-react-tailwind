@@ -1,6 +1,6 @@
 {
   "name": "ytdl"
-  "homepage": "https://danssui2.github.io/react-bmi-calculator",
+  "homepage": "https://danssui2.github.io/youtube-downloader-react-tailwind",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
