@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/youtube-downloader-react-tailwind/static/css/main.c96d2406.css",
+    "main.js": "/youtube-downloader-react-tailwind/static/js/main.149186f0.js",
+    "static/media/day.jpg": "/youtube-downloader-react-tailwind/static/media/day.ab876e7b19b717522d17.jpg",
+    "index.html": "/youtube-downloader-react-tailwind/index.html",
+    "main.c96d2406.css.map": "/youtube-downloader-react-tailwind/static/css/main.c96d2406.css.map",
+    "main.149186f0.js.map": "/youtube-downloader-react-tailwind/static/js/main.149186f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c96d2406.css",
+    "static/js/main.149186f0.js"
+  ]
+}
