@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/youtube-downloader-react-tailwind/static/css/main.aff63a90.css",
-    "main.js": "/youtube-downloader-react-tailwind/static/js/main.6108a40f.js",
+    "main.css": "/youtube-downloader-react-tailwind/static/css/main.ff64f0a8.css",
+    "main.js": "/youtube-downloader-react-tailwind/static/js/main.2c1f2377.js",
     "static/media/bg.png": "/youtube-downloader-react-tailwind/static/media/bg.cf2b675c5c6ff80c9f80.png",
     "static/media/tutorial.png": "/youtube-downloader-react-tailwind/static/media/tutorial.e8a28d4bc2ab063ca541.png",
     "static/media/copyright.png": "/youtube-downloader-react-tailwind/static/media/copyright.63790a50c4570739636f.png",
     "static/media/info.png": "/youtube-downloader-react-tailwind/static/media/info.2ce390765dffd5593686.png",
     "static/media/github.png": "/youtube-downloader-react-tailwind/static/media/github.a855c3975c028d8069f5.png",
     "index.html": "/youtube-downloader-react-tailwind/index.html",
-    "main.aff63a90.css.map": "/youtube-downloader-react-tailwind/static/css/main.aff63a90.css.map",
-    "main.6108a40f.js.map": "/youtube-downloader-react-tailwind/static/js/main.6108a40f.js.map"
+    "main.ff64f0a8.css.map": "/youtube-downloader-react-tailwind/static/css/main.ff64f0a8.css.map",
+    "main.2c1f2377.js.map": "/youtube-downloader-react-tailwind/static/js/main.2c1f2377.js.map"
   },
   "entrypoints": [
-    "static/css/main.aff63a90.css",
-    "static/js/main.6108a40f.js"
+    "static/css/main.ff64f0a8.css",
+    "static/js/main.2c1f2377.js"
   ]
 }
