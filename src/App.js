@@ -14,24 +14,26 @@ function App() {
   const [search, setSearch] = useState();
 
 const handle = (val) => {
-  //axios.get('http://localhost:5000/down?url=' + val)
-  axios.get('https://danssytdownload.cyclic.app/down?url=' + url)
-  .then((res) => {
-    if (res.data?.error) {
-      console.log(res.data.error);
-    } else {
-      if (res.data.link) {
-        setFormat(res.data.link);
-        setData(res.data.info);
-        console.log(res.data);
+  if (val !== undefined || val !== null || val !== "" || val !== "undefined") {
+    //axios.get('http://localhost:5000/down?url=' + val)
+    axios.get('https://danssytdownload.cyclic.app/down?url=' + val)
+    .then((res) => {
+      if (res.data?.error) {
+        console.log(res.data.error);
       } else {
-        setSearch(res.data.searchres);
+        if (res.data.link) {
+          setFormat(res.data.link);
+          setData(res.data.info);
+          console.log(res.data);
+        } else {
+          setSearch(res.data.searchres);
+        }
       }
-    }
-  })
-  .catch((err) => {
-     console.log(err.message);
-  });
+    })
+    .catch((err) => {
+       console.log(err.message);
+    });
+  }
 };
 
   const downlink = format?.map((entry, index) => {
@@ -49,7 +51,7 @@ const handle = (val) => {
         <div 
           key={index} 
           className="card w-64 bg-base-100 shadow-xl shrink-0 mb-2" 
-          onClick={() => {setUrl(url => entry?.url); handle(entry?.url);}}
+          onClick={() => {setUrl(url => entry?.url, handle(entry?.url))}}
         >
           <img src={entry?.bestThumbnail?.url} alt="" />
           <div className="card-body">
