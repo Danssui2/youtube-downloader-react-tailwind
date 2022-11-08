@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## YouTube Downloader React Tailwind
+![thumbnail](src/img/20221107_204250.png)
 
 ## Available Scripts
 
