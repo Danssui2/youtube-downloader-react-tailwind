@@ -16,7 +16,7 @@ function App() {
 const handle = (val) => {
   if (val !== undefined || val !== null || val !== "" || val !== "undefined") {
     //axios.get('http://localhost:5000/down?url=' + val)
-    axios.get('https://danssytdownload.cyclic.app/down?url=' + val)
+    axios.get('https://agreeable-coffee-citrus.glitch.me/down?url=' + val)
     .then((res) => {
       if (res.data?.error) {
         console.log(res.data.error);
